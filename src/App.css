@@ -1,0 +1,30 @@
+.nav-link.hover-transparent:hover {
+  opacity: 0.7;
+}
+.newsboard-container {
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust as needed */
+  padding: 20px;
+}
+
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajust min-width as needed */
+  grid-gap: 10px; /* Adjust gap as needed */
+}
+
+.news-list div {
+  margin: 5px; /* Spacing between individual news items */
+}
+
+@media (max-width: 768px) {
+  .news-list {
+    flex-direction: column; /* Stack items on smaller screens */
+
+  }
+}
+
+body {
+  background: linear-gradient(to bottom, #cbdedf, #9de0e1);
+  margin: 0; /* Remove default margin for full viewport coverage */
+}
