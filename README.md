@@ -38,5 +38,5 @@ This repository contains a React app that fetches news articles from a chosen ca
 ```jsx
 <Newsboard category="technology" /> // Displays technology news
 ```
-![Technology Image](src/asset/technology.png)
+
 
